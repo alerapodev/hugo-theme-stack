@@ -19,8 +19,8 @@
         .article-image {
             img {
                 width: 100%;
-                height: var(--article-image-height);
-                object-fit: cover;
+                object-fit: scale-down;
+                height: fit-content;
             }
         }
     }
